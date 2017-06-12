@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from themesanytime.com/startui/demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jun 2016 23:50:38 GMT -->
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Mural Online</title>
+
+	<link href="../img/favicon.png" rel="shortcut icon">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    
+	<link rel="stylesheet" href="../css/lib/lobipanel/lobipanel.min.css">
+    <link rel="stylesheet" href="../css/lib/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/lib/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+	<header class="site-header">
+	    <div class="container-fluid">
+	        <a href="#" class="site-logo">
+	            <img class="hidden-md-down" src="../../img/apple-touch-icon.png" alt="">
+	            <img class="hidden-lg-up" src="../../img/apple-touch-icon.png" alt="">
+	        </a>
+	        <div class="site-header-content">
+	            <div class="site-header-content-in">
+	                <div class="site-header-shown">
+	                    <div class="dropdown dropdown-notification notif">
+	                        <a href="#"
+	                           class="header-alarm dropdown-toggle active"
+	                           id="dd-notification"
+	                           data-toggle="dropdown"
+	                           aria-haspopup="true"
+	                           aria-expanded="false">
+	                            <i class="font-icon-alarm"></i>
+	                        </a>
+	                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-notif" aria-labelledby="dd-notification">
+	                            <div class="dropdown-menu-notif-header">
+	                                Notificações
+	                                <span class="label label-pill label-danger">4</span>
+	                            </div>
+	                            <div class="dropdown-menu-notif-list">
+	                                <div class="dropdown-menu-notif-item">
+	                                    <div class="photo">
+	                                        <img src="../img/photo-64-1.jpg" alt="">
+	                                    </div>
+	                                    <div class="dot"></div>
+	                                    <a href="#">João</a> inscreveu-se em uma bolsa
+	                                    <div class="color-blue-grey-lighter">7 horas atrás</div>
+	                                </div>
+	                                <div class="dropdown-menu-notif-item">
+	                                    <div class="photo">
+	                                        <img src="../img/photo-64-2.jpg" alt="">
+	                                    </div>
+	                                    <div class="dot"></div>
+	                                    <a href="#">Mateus</a> enviou-lhe um <a href="#">email</a>
+	                                    <div class="color-blue-grey-lighter">9 horas atrás</div>
+	                                </div>
+	                                <div class="dropdown-menu-notif-item">
+	                                    <div class="photo">
+	                                        <img src="../img/photo-64-3.jpg" alt="">
+	                                    </div>
+	                                    <div class="dot"></div>
+	                                    <a href="#">Livia</a> inscreveu-se em uma bolsa
+	                                    <div class="color-blue-grey-lighter">1 dia atrás</div>
+	                                </div>
+	                            </div>
+	                            <div class="dropdown-menu-notif-more">
+	                                <a href="#">Veja Mais</a>
+	                            </div>
+	                        </div>
+	                    </div>
+		
+	                    <div class="dropdown user-menu">
+	                        <button class="dropdown-toggle" id="dd-user-menu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                            <img src="../img/avatar-2-64.png" alt="">
+	                        </button>
+	                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd-user-menu">
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-user"></span>Meu Perfil</a>
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-cog"></span>Configurações</a>
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-question-sign"></span>Ajuda</a>
+	                            <div class="dropdown-divider"></div>
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-log-out"></span>Sair</a>
+	                        </div>
+	                    </div>
+	
+	                    <button type="button" class="burger-right">
+	                        <i class="font-icon-menu-addl"></i>
+	                    </button>
+	                </div><!--.site-header-shown-->
+	
+	                <div class="mobile-menu-right-overlay"></div>
+	                <div class="site-header-collapsed">
+	                    <div class="site-header-collapsed-in">
+	                        <div class="dropdown dropdown-typical">
+	                            <a class="dropdown-toggle no-arr" id="dd-header-sales" data-target="#" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                                <span class="font-icon font-icon-users"></span>
+	                                <span class="lbl">Alunos Inscritos</span>
+	                            </a>
+	                        </div>
+	                        <div class="dropdown dropdown-typical">
+	                            <a class="dropdown-toggle no-arr" id="dd-header-social" data-target="#" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                                <span class="font-icon font-icon-learn"></span>
+	                                <span class="lbl">Lista de Bolsas</span>
+	                            </a>
+	                        </div>
+                            
+	                        <div class="dropdown dropdown-typical">
+	                            <a class="dropdown-toggle no-arr" href="mail.html">
+	                                <span class="font-icon font-icon-mail"></span>
+	                                <span class="lbl">Emails</span>
+                                    <span class="label label-pill label-danger">4</span>
+	                            </a>
+	                        </div>
+                            <div class="dropdown dropdown-typical">
+	                            <form class="site-header-search closed">
+	                                <input type="text" placeholder="Pesquisar"/>
+	                                <button type="submit">
+	                                    <span class="font-icon-search"></span>
+	                                </button>
+	                                <div class="overlay"></div>
+	                            </form>
+	                        </div>
+	                        <div class="dropdown">
+	                            <button class="btn btn-rounded" id="dd-header-add" type="button" aria-haspopup="true" aria-expanded="false">
+	                                Cadastrar Bolsa
+	                            </button>
+	                        </div>	                        	                        
+	                    </div><!--.site-header-collapsed-in-->
+	                </div><!--.site-header-collapsed-->
+	            </div><!--site-header-content-in-->
+	        </div><!--.site-header-content-->
+	    </div><!--.container-fluid-->
+	</header><!--.site-header-->
+
+	<div class="page-content">
+	    <div class="container-fluid box-typical">
+	        <div class="row">
+                <div class="col-md-12">
+					<section class="steps-icon-block">
+						<div class="steps-icon-progress">
+							<ul>
+								<li class="active">
+									<div class="icon">
+										<i class="font-icon font-icon-post"></i>
+									</div>
+									<div class="caption">Dados da Bolsa</div>
+								</li>
+								<li class="active">
+									<div class="icon">
+										<i class="font-icon font-icon-user"></i>
+									</div>
+									<div class="caption">Perfil do Aluno</div>
+								</li>
+								<li class="active">
+									<div class="icon">
+										<i class="font-icon font-icon-ok"></i>
+									</div>
+									<div class="caption">Confirmação</div>
+								</li>
+							</ul>
+						</div>
+					</section><!--.steps-icon-block-->
+                    
+                    <div class="col-md-12">
+                            <h3 class="m-t-lg">Dados da Bolsa</h5>
+                            <h5 class="m-t-lg">Título da Bolsa: </h5>
+                            <p>CNPq Produtividade em Desenvolvimento Tecnológico e Extensão Inovadora </p>
+                            <h5>Tipo de Bolsa: </h5>
+                            <p>Bolsa de Projeto</p>
+                            <h5>Descrição: </h5>
+                            <p>O Grupo de Redes de Computadores, Engenharia de Software e Sistemas (GREat) está selecionando alunos dos cursos de Computação, Engenharia de Teleinformática e Sistema de Mídias Digitais, com características proativas e dinâmicas para ingressar na sua equipe. O GREat é composto por professores, pesquisadores colaboradores e estudantes de pós-graduação e graduação da Universidade Federal do Ceará (UFC) e de outras Instituições de Ensino Superior (IES). O grupo desenvolve projetos de pesquisa e desenvolvimento em parceria com outras instituições de ensino e empresas nas áreas de Redes de Computadores, Engenharia de Software e Sistemas. O grupo possui uma ótima estrutura, tanto física como humana, propiciando um ótimo local de trabalho e pesquisa, oferecendo possibilidades de aperfeiçoamento profissional e acadêmico.
+                            </p>
+                            <h5>Edital: </h5>
+                            <p>edital.pdf</p>
+                            <h5>Aceita inscrições até:</h5>
+                            <p>29/07/2016</p>
+                            <h5>Remuneração: </h5>
+                            <p>400 R$</p>
+                            <h5>Vagas de Bolsistas: </h5>
+                            <p>2</p>
+                            <h5>Vagas de Voluntários: </h5>
+                            <p>0</p>
+
+                            <h3 class="m-t-lg">Perfil do Aluno</h5>
+                            <h5>IRA Minimo: </h5>
+                            <p>7000</p>
+                            <h5>Semestre Mínimo: </h5>
+                            <p>2</p>
+                            <h5>Horas Livres Necessárias: </h5>
+                            <p>20 horas</p>
+                            <h5>Limite de Reprovações: </h5>
+                            <p>0</p>
+                            <h5>Algo a mais: </h5>
+                            <p>Ter experiência em Scrum</p>
+                    </div>
+                    
+                    
+                    </div>
+                          <a href="schoorlarship-register02.html"><button type="button" class="btn btn-rounded btn-grey float-left m-a-lg">← Voltar</button></a>
+                          <a href="schoolarship.html"><button type="button" class="btn btn-rounded float-right m-a-lg">Finalizar Cadastro</button></a>
+                </div>
+            </div>	        
+        </div><!--.container-fluid-->
+
+	</div><!--.page-content-->
+
+	
+
+	<script src="../js/lib/jquery/jquery.min.js"></script>
+	<script src="../js/lib/tether/tether.min.js"></script>
+	<script src="../js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="../js/plugins.js"></script>
+    
+	<script type="text/javascript" src="../js/lib/jqueryui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/lib/lobipanel/lobipanel.min.js"></script>
+	<script type="text/javascript" src="../../../../www.gstatic.com/charts/loader.js"></script>   
+    
+    <script>
+		$(document).ready(function(){
+			$("input[name='demo_vertical2']").TouchSpin({
+				verticalbuttons: true,
+				verticalupclass: 'glyphicon glyphicon-plus',
+				verticaldownclass: 'glyphicon glyphicon-minus'
+			});
+		});
+	</script>
+    <script src="../js/app.js"></script>
+</body>
+
+<!-- Mirrored from themesanytime.com/startui/demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jun 2016 23:51:18 GMT -->
+</html>

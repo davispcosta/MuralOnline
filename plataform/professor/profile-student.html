@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from themesanytime.com/startui/demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jun 2016 23:50:38 GMT -->
+<head lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Mural Online</title>
+
+	<link href="../img/favicon.png" rel="shortcut icon">
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="../css/lib/lobipanel/lobipanel.min.css">
+    <link rel="stylesheet" href="../css/lib/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/lib/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+	<header class="site-header">
+	    <div class="container-fluid">
+	        <a href="#" class="site-logo">
+	            <img class="hidden-md-down" src="../../img/apple-touch-icon.png" alt="">
+	            <img class="hidden-lg-up" src="../../img/apple-touch-icon.png" alt="">
+	        </a>
+	        <div class="site-header-content">
+	            <div class="site-header-content-in">
+	                <div class="site-header-shown">
+	                    <div class="dropdown dropdown-notification notif">
+	                        <a href="#"
+	                           class="header-alarm dropdown-toggle active"
+	                           id="dd-notification"
+	                           data-toggle="dropdown"
+	                           aria-haspopup="true"
+	                           aria-expanded="false">
+	                            <i class="font-icon-alarm"></i>
+	                        </a>
+	                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-notif" aria-labelledby="dd-notification">
+	                            <div class="dropdown-menu-notif-header">
+	                                Notificações
+	                                <span class="label label-pill label-danger">4</span>
+	                            </div>
+	                            <div class="dropdown-menu-notif-list">
+	                                <div class="dropdown-menu-notif-item">
+	                                    <div class="photo">
+	                                        <img src="../img/photo-64-1.jpg" alt="">
+	                                    </div>
+	                                    <div class="dot"></div>
+	                                    <a href="#">João</a> inscreveu-se em uma bolsa
+	                                    <div class="color-blue-grey-lighter">7 horas atrás</div>
+	                                </div>
+	                                <div class="dropdown-menu-notif-item">
+	                                    <div class="photo">
+	                                        <img src="../img/photo-64-2.jpg" alt="">
+	                                    </div>
+	                                    <div class="dot"></div>
+	                                    <a href="#">Mateus</a> enviou-lhe um <a href="#">email</a>
+	                                    <div class="color-blue-grey-lighter">9 horas atrás</div>
+	                                </div>
+	                                <div class="dropdown-menu-notif-item">
+	                                    <div class="photo">
+	                                        <img src="../img/photo-64-3.jpg" alt="">
+	                                    </div>
+	                                    <div class="dot"></div>
+	                                    <a href="#">Livia</a> inscreveu-se em uma bolsa
+	                                    <div class="color-blue-grey-lighter">1 dia atrás</div>
+	                                </div>
+	                            </div>
+	                            <div class="dropdown-menu-notif-more">
+	                                <a href="#">Veja Mais</a>
+	                            </div>
+	                        </div>
+	                    </div>
+		
+	                    <div class="dropdown user-menu">
+	                        <button class="dropdown-toggle" id="dd-user-menu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                            <img src="../img/avatar-2-64.png" alt="">
+	                        </button>
+	                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd-user-menu">
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-user"></span>Meu Perfil</a>
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-cog"></span>Configurações</a>
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-question-sign"></span>Ajuda</a>
+	                            <div class="dropdown-divider"></div>
+	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-log-out"></span>Sair</a>
+	                        </div>
+	                    </div>
+	
+	                    <button type="button" class="burger-right">
+	                        <i class="font-icon-menu-addl"></i>
+	                    </button>
+	                </div><!--.site-header-shown-->
+	
+	                <div class="mobile-menu-right-overlay"></div>
+	                <div class="site-header-collapsed">
+	                    <div class="site-header-collapsed-in">
+	                        <div class="dropdown dropdown-typical">
+	                            <a class="dropdown-toggle no-arr" id="dd-header-sales" data-target="#" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                                <span class="font-icon font-icon-users"></span>
+	                                <span class="lbl">Alunos Inscritos</span>
+	                            </a>
+	                        </div>
+	                        <div class="dropdown dropdown-typical">
+	                            <a class="dropdown-toggle no-arr" id="dd-header-social" data-target="#" href="http://example.com/" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                                <span class="font-icon font-icon-learn"></span>
+	                                <span class="lbl">Lista de Bolsas</span>
+	                            </a>
+	                        </div>
+                            
+	                        <div class="dropdown dropdown-typical">
+	                            <a class="dropdown-toggle no-arr" href="mail.html">
+	                                <span class="font-icon font-icon-mail"></span>
+	                                <span class="lbl">Emails</span>
+                                    <span class="label label-pill label-danger">4</span>
+	                            </a>
+	                        </div>
+                            <div class="dropdown dropdown-typical">
+	                            <form class="site-header-search closed">
+	                                <input type="text" placeholder="Pesquisar"/>
+                                    <a>
+	                                <button type="submit">
+	                                    <span class="font-icon-search"></span>
+	                                </button>
+                                    </a>
+	                                <div class="overlay"></div>
+	                            </form>
+	                        </div>
+	                        <div class="dropdown">
+	                            <button class="btn btn-rounded" id="dd-header-add" type="button" aria-haspopup="true" aria-expanded="false">
+	                                Cadastrar Bolsa
+	                            </button>
+	                        </div>	                        	                        
+	                    </div><!--.site-header-collapsed-in-->
+	                </div><!--.site-header-collapsed-->
+	            </div><!--site-header-content-in-->
+	        </div><!--.site-header-content-->
+	    </div><!--.container-fluid-->
+	</header><!--.site-header-->
+
+	<div class="page-content">
+	    <div class="container-fluid">
+	        <div class="row">
+				<div class="col-lg-6 col-lg-push-3 col-md-12">
+									
+					<section class="box-typical">
+						<header class="box-typical-header-sm">Dados do Aluno</header>
+						<article class="profile-info-item">
+							<header class="profile-info-item-header">
+								<i class="font-icon font-icon-notebook-bird"></i>
+								Sumário
+							</header>
+							<div class="text-block text-block-typical">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+							</div>
+						</article><!--.profile-info-item-->
+                        
+                        <section class="proj-page-section">
+							<header class="proj-page-subtitle">
+								<h3>Anexo</h3>
+							</header>
+							<div class="proj-page-attach">
+								<i class="font-icon font-icon-pdf"></i>
+								<p class="name">curriculo.pdf</p>
+								<p class="date">16:48, 13 julho 2016</p>
+								<p>
+									<a href="#">Ver</a>
+									<a href="#">Baixar</a>
+								</p>
+							</div>
+                            <div class="proj-page-attach">
+								<i class="font-icon font-icon-pdf"></i>
+								<p class="name">historico.pdf</p>
+								<p class="date">16:48, 13 julho 2016</p>
+								<p>
+									<a href="#">Ver</a>
+									<a href="#">Baixar</a>
+								</p>
+							</div>
+						</section><!--.proj-page-attach-section-->
+
+						
+						<article class="profile-info-item">
+							<header class="profile-info-item-header">
+								<i class="font-icon font-icon-award"></i>
+								Educação
+							</header>
+							<ul class="exp-timeline">
+								<li class="exp-timeline-item">
+									<div class="dot"></div>
+									<div class="tbl">
+										<div class="tbl-row">
+											<div class="tbl-cell">
+												<div class="exp-timeline-range">2015</div>
+												<div class="exp-timeline-status">Universidade Federal do Ceará</div>
+											</div>
+											<div class="tbl-cell tbl-cell-logo">
+												<img src="../img/logo-2.png" alt="">
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</article><!--.profile-info-item-->
+
+						
+
+						<article class="profile-info-item">
+							<header class="profile-info-item-header">
+								<i class="font-icon font-icon-star"></i>
+								Áreas de Interesse
+							</header>
+							<div class="profile-interests">
+								<a href="#" class="label label-light-grey">Engenharia de Software</a>
+								<a href="#" class="label label-light-grey">Redes de Computadores</a>
+								<a href="#" class="label label-light-grey">Telecomunicações</a>
+								<a href="#" class="label label-light-grey">Computação Móvel</a>
+								<a href="#" class="label label-light-grey">Internet das Coisas</a>
+								<a href="#" class="label label-light-grey">Especificação Formal</a>
+								<a href="#" class="label label-light-grey">Computação em Nuvens</a>
+								<a href="#" class="label label-light-grey">Linhas de Produto de Software</a>
+								<a href="#" class="label label-light-grey">Padrões de Software</a>
+								<a href="#" class="label label-light-grey">Redes de Sensores sem Fio</a>
+								<a href="#" class="label label-light-grey">Segurança de Protocolos e Sistemas</a>
+							</div>
+						</article><!--.profile-info-item-->
+					</section><!--.box-typical-->
+
+					
+					
+				</div><!--.col- -->
+
+				<div class="col-lg-3 col-lg-pull-6 col-md-6 col-sm-6">
+					<section class="box-typical">
+						<div class="profile-card">
+							<div class="profile-card-photo">
+								<img src="../img/photo-184-1.jpg" alt=""/>
+							</div>
+							<div class="profile-card-name">John Doe</div>
+							<div class="profile-card-status">Ciência da Computação</div>			
+						</div><!--.profile-card-->
+
+
+						<ul class="profile-links-list">
+							
+							<li class="nowrap">
+								<i class="font-icon font-icon-fb-fill"></i>
+								<a href="#">facebook.com/johndoe</a>
+							</li>
+							<li class="nowrap">
+								<i class="font-icon font-icon-in-fill"></i>
+								<a href="#">linked.in/johndoe</a>
+							</li>
+							<li class="nowrap">
+								<i class="font-icon font-icon-tw-fill"></i>
+								<a href="#">twitter.com/johndoe</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<p>Matrícula: 3435362<br>3º Semestre</p>
+							</li>
+                            
+						</ul>
+					</section><!--.box-typical-->
+
+				</div><!--.col- -->
+
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					
+				</div><!--.col- -->
+			</div><!--.row-->	        
+	    </div><!--.container-fluid-->
+	</div><!--.page-content-->
+
+	
+
+	<script src="../js/lib/jquery/jquery.min.js"></script>
+	<script src="../js/lib/tether/tether.min.js"></script>
+	<script src="../js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="../js/plugins.js"></script>
+
+	<script type="text/javascript" src="../js/lib/jqueryui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../js/lib/lobipanel/lobipanel.min.js"></script>
+	<script type="text/javascript" src="../../../../www.gstatic.com/charts/loader.js"></script>
+<script src="js/app.js"></script>
+</body>
+
+<!-- Mirrored from themesanytime.com/startui/demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jun 2016 23:51:18 GMT -->
+</html>
